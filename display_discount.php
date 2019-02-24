@@ -4,7 +4,7 @@ $description = $_POST['description'];
 $price = $_POST['price'];
 $discount_percent = $_POST['discount_percent'];
 
-$discount = $price * $discount_percent * 0.1;
+$discount = $price * $discount_percent / 100 * 0.1;
 $discount_price = $price - $discount;
 
 ?>

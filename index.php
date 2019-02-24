@@ -13,7 +13,7 @@
                     <label>List Price:</label>
                     <input type="text" name="price"/><br/>
                     <label>Discount Percent:</label>
-                    <input type="text" name="discount_percent"/><br/>
+                    <input type="text" name="discount_percent"/>(%)<br/>
                 </div>
                 <div id="buttons">
                     <label>&nbsp;</label>
